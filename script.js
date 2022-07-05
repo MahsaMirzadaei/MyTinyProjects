@@ -23,27 +23,27 @@ items.forEach((item)=>{
 })
 
 quote.addEventListener('mouseover', ()=>{
-    title.textContent = 'Quote Maker'
-    description.textContent = 'This page try to make some quote and make u feel better'
+    title.textContent = 'Quote Generator'
+    description.textContent = "In this page U can generate random quote and INSPIRE your self."
     textBox.classList.add('animation')
 })
 evil.addEventListener('mouseover', ()=>{
     title.textContent = 'Scary Maze'
-    description.textContent = 'This page is a game. A scary maze with 2 level. U should.nt go out of the border!!!'
+    description.textContent = "There is a game in this page. A scary maze with 2 levels. Try to track the border and STAY on it!!!"
     textBox.classList.add('animation')
 })
 unsplash.addEventListener('mouseover', ()=>{
-    title.textContent = 'Infinite Scroll Unsplash'
-    description.textContent = 'This page is an Infinite Scroll to see photos that is an API from Unsplash website '
+    title.textContent = 'Random Photos Scroller'
+    description.textContent = 'In this page U can Scroll down random photos from unsplash website for ETERNITY.'
     textBox.classList.add('animation')
 })
 puzzle.addEventListener('mouseover', ()=>{
     title.textContent = 'Memory Puzzle Game'
-    description.textContent = 'This page is a game of memory puzzle that U have 5 second to memorize and 6 live to loose.'
+    description.textContent = 'In This page U can play memory puzzle that gives U 5 seconds to MEMORIZE and U have 6 lives to lose.'
     textBox.classList.add('animation')
 })
 adidas.addEventListener('mouseover', ()=>{
-    title.textContent = 'Adidas store'
-    description.textContent = 'This page is a simple store example that is so smooth with mouse hover '
+    title.textContent = 'Adidas Shop'
+    description.textContent = 'This page represents an example product card that is so smooth with mouse HOVERING.'
     textBox.classList.add('animation')
 })
