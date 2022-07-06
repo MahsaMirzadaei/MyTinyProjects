@@ -24,12 +24,12 @@ items.forEach((item)=>{
 
 quote.addEventListener('mouseover', ()=>{
     title.textContent = 'Quote Generator'
-    description.textContent = "In this page U can generate random quote and INSPIRE your self."
+    description.textContent = "In this page U can generate random quotes and INSPIRE yourself."
     textBox.classList.add('animation')
 })
 evil.addEventListener('mouseover', ()=>{
     title.textContent = 'Scary Maze'
-    description.textContent = "There is a game in this page. A scary maze with 2 levels. Try to track the border and STAY on it!!!"
+    description.textContent = "There is a game in this page. A scary maze with 2 levels. Try to track the maze and STAY on it!!!"
     textBox.classList.add('animation')
 })
 unsplash.addEventListener('mouseover', ()=>{
@@ -44,6 +44,6 @@ puzzle.addEventListener('mouseover', ()=>{
 })
 adidas.addEventListener('mouseover', ()=>{
     title.textContent = 'Adidas Shop'
-    description.textContent = 'This page represents an example product card that is so smooth with mouse HOVERING.'
+    description.textContent = 'This page represents an example 3D product card that is so smooth with mouse HOVERING.'
     textBox.classList.add('animation')
 })
